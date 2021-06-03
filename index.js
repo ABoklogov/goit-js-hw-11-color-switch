@@ -7,23 +7,16 @@ const bodyEl = document.querySelector('body');
 const firstIndex = colors.indexOf(colors[0]);
 const lastIndex = colors.indexOf(colors[colors.length - 1]);
 
-const colorIndex = randomIntegerFromInterval(firstIndex, lastIndex);
-// console.log(color);
-const d = setInterval(() => {
-    colors[colorIndex]
-}, 1000);
-console.log(d);
+let colorIndex = 0;
 
 startBtnEl.addEventListener('click', onSwitchColorsClick);
 
 function onSwitchColorsClick() {
-    
+    setInterval(() => {
+    colorIndex = randomIntegerFromInterval(firstIndex, lastIndex);
     bodyEl.style.backgroundColor = colors[colorIndex];
-    console.log(colors[colorIndex]);
-
+    }, 1000);
 };
-
-// const colorSwitching = setInterval(, 1000);
 
  function randomIntegerFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
