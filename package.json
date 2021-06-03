@@ -1,0 +1,23 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "Репозиторий для выполнения ДЗ №11 (Задание 1 - Переключатель цветов)",
+  "main": "index.js",
+  "scripts": {
+     "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABoklogov/goit-js-hw-11-color-switch.git"
+  },
+  "author": "Alexey Boklogov <Kashira87@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABoklogov/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://github.com/ABoklogov/goit-js-hw-11-color-switch#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
