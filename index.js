@@ -9,7 +9,6 @@ let colorIndex = 0;
 let idSetInterval = 0;
 
 startBtnEl.addEventListener('click', onStartSwitchColorsClick);
-
 stopBtnEl.addEventListener('click', onStopSwitchColorsClick);
 
 function onStartSwitchColorsClick() {
