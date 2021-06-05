@@ -1,4 +1,12 @@
-import colors from './src/colors.json';
+// import colors from './src/colors.json';
+const colors = [
+  '#FFFFFF',
+  '#2196F3',
+  '#4CAF50',
+  '#FF9800',
+  '#009688',
+  '#795548',
+];
 
 const startBtnEl = document.querySelector('[data-action="start"]');
 const stopBtnEl = document.querySelector('[data-action="stop"]');
